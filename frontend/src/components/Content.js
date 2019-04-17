@@ -7,23 +7,16 @@ import UserMenu from "./UserMenu";
 import FAQContent from "./FAQContent";
 
 class Content extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {page: null};
-    }
 
-    onPageChange(page) {
-        this.setState({page: page});
-    }
     render() {
-        const page = this.state.page;
-        let pageContentElement = <HomePageContent page={"home"}/>;
+        const page = this.props.page;
+        let pageContentElement = <HomePageContent/>;
         switch (page) {
             case 'home':
-                pageContentElement = <HomePageContent page={"home"}/>;
+                pageContentElement = <HomePageContent/>;
                 break;
             case 'faq':
-                pageContentElement = <FAQContent page={"faq"}/>;
+                pageContentElement = <FAQContent/>;
                 break;
             default:
         }
@@ -33,7 +26,7 @@ class Content extends Component {
             <Container fluid="true">
                 <Row>
                     <Col md="3">
-                        <UserMenu changePage = {this.onPageChange(page)}/>
+                        <UserMenu/>
                     </Col>
                     <Col md="9">
                         {pageContentElement}
