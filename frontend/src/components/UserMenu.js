@@ -6,6 +6,9 @@ class UserMenu extends Component {
         return (
             <div>
                 <UserLogin/>
+                <div className="user-menu">
+                    Для взаимодействия с информационной системой требуется авторизация. Войдите пожалуйста.
+                </div>
             </div>
         );
     }
