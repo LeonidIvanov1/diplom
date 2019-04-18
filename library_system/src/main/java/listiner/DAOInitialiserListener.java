@@ -65,22 +65,22 @@ public class DAOInitialiserListener implements ServletContextListener {
 	 * @param context -- Servlet context
 	 */
 	private void initializationDAO(ServletContext context) {
-		DAOFactory df = DAOFactory.getInstance(
-				DBType.getTypeByName(Resourcer.getString("dao.dbtype")));
-		context.setAttribute(Resourcer.getString("dao.user"), df.getUserDAO());
-		context.setAttribute(Resourcer.getString("dao.group"),
-				df.getGroupDAO());
-		context.setAttribute(Resourcer.getString("dao.discipline"),
-				df.getDisciplineDAO());
-		
-		context.setAttribute(Resourcer.getString("dao.standart"),
-				df.getStandartDAO());
-		
-		context.setAttribute(Resourcer.getString("dao.specialty"),
-				df.getSpecialtyDAO());
-		
-		context.setAttribute(Resourcer.getString("dao.literature"),
-				df.getLiteratureDAO());
+//		DAOFactory df = DAOFactory.getInstance(
+//				DBType.getTypeByName(Resourcer.getString("dao.dbtype")));
+//		context.setAttribute(Resourcer.getString("dao.user"), df.getUserDAO());
+//		context.setAttribute(Resourcer.getString("dao.group"),
+//				df.getGroupDAO());
+//		context.setAttribute(Resourcer.getString("dao.discipline"),
+//				df.getDisciplineDAO());
+//
+//		context.setAttribute(Resourcer.getString("dao.standart"),
+//				df.getStandartDAO());
+//
+//		context.setAttribute(Resourcer.getString("dao.specialty"),
+//				df.getSpecialtyDAO());
+//
+//		context.setAttribute(Resourcer.getString("dao.literature"),
+//				df.getLiteratureDAO());
 	}
 
 }

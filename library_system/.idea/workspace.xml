@@ -7,12 +7,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8af1859-8f77-455d-887f-b234e4e5340b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ActionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ChangeGroupInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ChangeLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ChangeUserInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/CheckLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/CommandEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/CommandRedirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/DeleteGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/DeleteLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/DeleteSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/DeleteUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/EmptyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToAddGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToAddLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToAddSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToAddUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToCheckLiterature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToMainPageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToReserveLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetGroupInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetGroupsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetLiteratureCollectionsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetLiteratureInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetOnlineUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetSpecialtiesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetSpecialtyInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetUserInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetUsersCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/LogoutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/RedirectionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ReserveLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/SearchGroupsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/SearchLiteratureCollectionsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/SearchLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/SearchSpecialtiesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/SearchUsersCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/UserMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/UserMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library_system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/DBType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/DBType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/data/Specialty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Specialty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,73 +73,74 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DBTypeException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-496">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1003">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1258">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="404">
+              <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DAOFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DBType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/ActionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/AddGroupCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -96,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="-429">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#631#632#0" expanded="true" />
@@ -107,23 +159,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/StandartDAO.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="289">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/FrontController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,9 +204,11 @@
       <find>ru.rsreu.ivanov0807.library.</find>
       <find>com.prutzkow.</find>
       <find>@Override</find>
+      <find>datalayer.daomanager.</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>servlet.</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -159,14 +222,11 @@
       <list>
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/DAOFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/data/Specialty.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/data/literature/Literature.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/DBType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java" />
         <option value="$PROJECT_DIR$/src/main/java/listiner/QuitListiner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/filter/AuthorizationFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleUserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" />
@@ -175,6 +235,13 @@
         <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/ForwardToCheckLiterature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/AddGroupCommand.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java" />
       </list>
     </option>
   </component>
@@ -193,19 +260,20 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-117" />
-    <option name="y" value="-15" />
-    <option name="width" value="1936" />
-    <option name="height" value="1050" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,23 +298,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datalayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datalayer" type="462c0819:PsiDirectoryNode" />
-              <item name="oracledb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
@@ -283,6 +334,13 @@
             <path>
               <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
               <item name="library_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library_system" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -298,21 +356,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/command" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\diplom\library_system\src\main\java\command" />
       <recent name="C:\Users\Admin\Desktop\Диплом\library_system\src\main\java\listiner" />
       <recent name="C:\Users\Admin\Desktop\Диплом\library_system\src\main\java\filter" />
       <recent name="C:\Users\Admin\Desktop\Диплом\library_system\src\main\java\datalayer\data\literature" />
       <recent name="C:\Users\Admin\Desktop\Диплом\library_system\src\main\java\datalayer\data" />
-      <recent name="C:\Users\Admin\Desktop\Диплом\library_system\src\main\java\datalayer\oracledb" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -349,6 +411,21 @@
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="51202" />
       </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -387,7 +464,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/library_system_war_exploded/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/library_system_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="library_system:war exploded">
@@ -398,6 +475,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_library_system_2" />
+        <option name="HTTP_PORT" value="8088" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -407,6 +485,21 @@
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="51532" />
       </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -449,6 +542,9 @@
       <item itemvalue="Tomcat Server.Tomcat 9" />
     </list>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e8af1859-8f77-455d-887f-b234e4e5340b" name="Default Changelist" comment="" />
@@ -457,65 +553,70 @@
       <option name="presentableId" value="Default" />
       <updated>1555526879543</updated>
       <workItem from="1555526886615" duration="2972000" />
+      <workItem from="1555571458134" duration="3626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2972000" />
+    <option name="totallyTimeSpent" value="6598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Java Enterprise" weight="0.3290461" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="Application Servers" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32555556" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.42333335" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.33333334" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3288889" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Resourcer.getString(&quot;dao.dbtype&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Resourcer.getString(&quot;dao.dbtype&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/FrontController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -530,9 +631,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/Literature.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../08-07-Ivanov/src/ru/rsreu/ivanov0807/library/datalayer/daomanager/DAOServletManager.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../08-07-Ivanov/src/ru/rsreu/ivanov0807/library/datalayer/daomanager/DAOServletManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/listiner/QuitListiner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -547,16 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
           <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,23 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DBType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DBTypeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -648,32 +720,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-496">
+        <state relative-caret-position="68">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1003">
+        <state relative-caret-position="68">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
+        <state relative-caret-position="1700">
           <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="357">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -684,17 +763,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1258">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="1019">
+          <caret line="141" column="32" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/ForwardToCheckLiterature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="391">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/ActionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/AddGroupCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/FrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DBType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -703,8 +853,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="-429">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#631#632#0" expanded="true" />
@@ -713,10 +863,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        <state relative-caret-position="404">
+          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -734,7 +884,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

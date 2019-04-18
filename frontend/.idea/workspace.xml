@@ -1,8 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="604aadb9-3d3f-48d8-8238-96839ae0e537" name="Default Changelist" comment="" />
-
+    <list default="true" id="604aadb9-3d3f-48d8-8238-96839ae0e537" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../library_system/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ActionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/AddGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/AddLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/AddSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/AddUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ChangeGroupInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ChangeLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ChangeUserInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/CheckLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/CommandEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/CommandRedirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/DeleteGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/DeleteLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/DeleteSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/DeleteUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/EmptyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToAddGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToAddLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToAddSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToAddUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToCheckLiterature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToMainPageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToReserveLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetGroupInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetGroupsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetLiteratureCollectionsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetLiteratureInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetOnlineUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetSpecialtiesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetSpecialtyInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetUserInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetUsersCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/LogoutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/RedirectionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ReserveLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/SearchGroupsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/SearchLiteratureCollectionsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/SearchLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/SearchSpecialtiesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/SearchUsersCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/library_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/library_system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/out/artifacts/library_system_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/out/artifacts/library_system_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/out/artifacts/library_system_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/out/artifacts/library_system_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/DBType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/DBType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/data/Specialty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/data/Specialty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/oracledb/OracleDAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/oracledb/OracleDAOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/servlet/DAOServletManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/servlet/DAOServletManager.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,12 +65,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -29,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="493">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -41,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+            <state relative-caret-position="464">
+              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -50,9 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/UserMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-
+            <state relative-caret-position="272">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -63,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="578">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -77,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="136">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -232,13 +283,13 @@
       <workItem from="1555442122803" duration="1071000" />
       <workItem from="1555483721764" duration="257000" />
       <workItem from="1555484010998" duration="15870000" />
+      <workItem from="1555570588802" duration="130000" />
+      <workItem from="1555570816106" duration="636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-
-    <option name="totallyTimeSpent" value="17198000" />
-
+    <option name="totallyTimeSpent" value="17964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,25 +301,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840257" visible="true" weight="0.14805058" />
-
       <window_info id="Structure" order="1" sideWeight="0.50159746" side_tool="true" weight="0.24973656" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50105375" side_tool="true" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -324,37 +373,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="51">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Content.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="493">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -363,31 +395,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UserMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="136">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="464">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
         </state>
       </provider>
     </entry>
