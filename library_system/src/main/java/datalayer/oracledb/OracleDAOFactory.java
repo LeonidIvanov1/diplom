@@ -35,12 +35,12 @@ public class OracleDAOFactory extends DAOFactory {
 	}
 
 	private void connected() throws ClassNotFoundException, SQLException {
-		Locale.setDefault(Locale.ENGLISH);
-		Class.forName(Resourcer.getString("oracle.db.driver"));
-		connection = DriverManager.getConnection(
-				Resourcer.getString("oracle.db.url"),
-				Resourcer.getString("oracle.db.user"),
-				Resourcer.getString("oracle.db.password"));
+//		Locale.setDefault(Locale.ENGLISH);
+//		Class.forName(Resourcer.getString("oracle.db.driver"));
+//		connection = DriverManager.getConnection(
+//				Resourcer.getString("oracle.db.url"),
+//				Resourcer.getString("oracle.db.user"),
+//				Resourcer.getString("oracle.db.password"));
 	}
 
 	public void closeConnection() throws SQLException {
@@ -49,33 +49,33 @@ public class OracleDAOFactory extends DAOFactory {
 		}
 	}
 
-	@Override
+
 	public UserDAO getUserDAO() {
 		return new OracleUserDAO(connection);
 	}
 
-	@Override
+
 	public GroupDAO getGroupDAO() {
 
 		return new OracleGroupDAO(connection);
 	}
 
-	@Override
+
 	public DisciplineDAO getDisciplineDAO() {
 		return new OracleDisciplineDAO(connection);
 	}
 
-	@Override
+
 	public SpecialtyDAO getSpecialtyDAO() {
 		return new OracleSpecialtyDAO(connection);
 	}
 
-	@Override
+
 	public StandartDAO getStandartDAO() {
 		return new OracleStandartDAO(connection);
 	}
 
-	@Override
+
 	public LiteratureDAO getLiteratureDAO() {
 		// TODO Auto-generated method stub
 		return new OracleLiteratureDAO(connection);

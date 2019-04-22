@@ -11,7 +11,7 @@ import java.util.MissingResourceException;
 public class Resourcer {
     public static final String MISSING_PARAMETER_VALUE_MESSAGE_FORMAT = "Value for parameter \"%s\" is missing";
 
-    private static final String DEFAULT_PROPERTY_NAME = "resources.text";
+    private static final String DEFAULT_PROPERTY_NAME = "text.properties";
     private static String basename = DEFAULT_PROPERTY_NAME;
 
     private static ResourceBundle resources = ResourceBundle.getBundle(

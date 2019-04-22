@@ -37,11 +37,10 @@ public class DAOServletManager {
     /**
      * Gets User DAO from HttpServletRequest
      *
-     * @param context HttpServletRequest
      * @return User DAO
      */
     public static UserDAO getUserDAO(HttpServletRequest request) {
-        return getUserDAO(request.getServletContext());
+        return getUserDAO(request.getSession().getServletContext());
     }
 
     /**
@@ -58,11 +57,10 @@ public class DAOServletManager {
     /**
      * Gets Group DAO from HttpServletRequest
      *
-     * @param context HttpServletRequest
      * @return User DAO
      */
     public static GroupDAO getGroupDAO(HttpServletRequest request) {
-        return getGroupDAO(request.getServletContext());
+        return getGroupDAO(request.getSession().getServletContext());
     }
 
     /**
@@ -79,11 +77,10 @@ public class DAOServletManager {
     /**
      * Gets DisciplineDAO from HttpServletRequest
      *
-     * @param context HttpServletRequest
      * @return User DAO
      */
     public static DisciplineDAO getDisciplineDAO(HttpServletRequest request) {
-        return getDisciplineDAO(request.getServletContext());
+        return getDisciplineDAO(request.getSession().getServletContext());
     }
 
     /**
@@ -100,11 +97,10 @@ public class DAOServletManager {
     /**
      * Gets DisciplineDAO from HttpServletRequest
      *
-     * @param context HttpServletRequest
      * @return User DAO
      */
     public static StandartDAO getStandartDAO(HttpServletRequest request) {
-        return getStandartDAO(request.getServletContext());
+        return getStandartDAO(request.getSession().getServletContext());
     }
 
     /**
@@ -121,11 +117,10 @@ public class DAOServletManager {
     /**
      * Gets DisciplineDAO from HttpServletRequest
      *
-     * @param context HttpServletRequest
      * @return User DAO
      */
     public static SpecialtyDAO getSpecialtyDAO(HttpServletRequest request) {
-        return getSpecialtyDAO(request.getServletContext());
+        return getSpecialtyDAO(request.getSession().getServletContext());
     }
 
     /**
@@ -142,11 +137,10 @@ public class DAOServletManager {
     /**
      * Gets DisciplineDAO from HttpServletRequest
      *
-     * @param context HttpServletRequest
      * @return User DAO
      */
     public static LiteratureDAO getLiteratureDAO(HttpServletRequest request) {
-        return getLiteratureDAO(request.getServletContext());
+        return getLiteratureDAO(request.getSession().getServletContext());
     }
 
 }
