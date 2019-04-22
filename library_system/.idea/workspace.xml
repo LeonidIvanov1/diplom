@@ -7,65 +7,250 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8af1859-8f77-455d-887f-b234e4e5340b" name="Default Changelist" comment="">
-
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ActionCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ActionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ChangeGroupInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ChangeLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ChangeUserInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/CheckLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/CommandEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/CommandRedirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/DeleteGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/DeleteLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/DeleteSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/DeleteUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/EmptyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToAddGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToAddLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToAddSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToAddUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToCheckLiterature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToMainPageCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ForwardToReserveLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetGroupInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetGroupsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetLiteratureCollectionsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetLiteratureInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetOnlineUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetSpecialtiesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetSpecialtyInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetUserInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetUsersCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/LogoutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/RedirectionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ReserveLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/SearchGroupsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/SearchLiteratureCollectionsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/SearchLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/SearchSpecialtiesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/SearchUsersCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tablemaker/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tablemaker/TableColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tablemaker/TableMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tables.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library_system.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/DBType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/DBType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/data/Specialty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Specialty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ActionCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ActionCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ActionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ActionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/AddGroupCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/AddGroupCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/AddLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/AddLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/AddSpecialtyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/AddSpecialtyCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/AddUserCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/AddUserCommand$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/AddUserCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/AddUserCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ChangeGroupInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ChangeGroupInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ChangeLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ChangeLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ChangeUserInfoCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ChangeUserInfoCommand$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ChangeUserInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ChangeUserInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CheckLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CheckLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandRedirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/CommandRedirection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/DeleteGroupCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/DeleteGroupCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/DeleteLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/DeleteLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/DeleteSpecialtyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/DeleteSpecialtyCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/DeleteUserCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/DeleteUserCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/EmptyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/EmptyCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToAddGroupCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToAddGroupCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToAddLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToAddLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToAddSpecialtyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToAddSpecialtyCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToAddUserCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToAddUserCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToCheckLiterature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToCheckLiterature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToMainPageCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToMainPageCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToReserveLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ForwardToReserveLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetGroupInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetGroupInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetGroupsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetGroupsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetLiteratureCollectionsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetLiteratureCollectionsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetLiteratureInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetLiteratureInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetOnlineUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetOnlineUsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetSpecialtiesCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetSpecialtiesCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetSpecialtyInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetSpecialtyInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetUserInfoCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetUserInfoCommand$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetUserInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetUserInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetUsersCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/GetUsersCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/LoginCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/LoginCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/LogoutCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/LogoutCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/RedirectionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/RedirectionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ReserveLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/ReserveLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/SearchGroupsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/SearchGroupsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/SearchLiteratureCollectionsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/SearchLiteratureCollectionsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/SearchLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/SearchLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/SearchSpecialtiesCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/SearchSpecialtiesCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/SearchUsersCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/command/SearchUsersCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/DAOFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/DAOFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/DBType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/DBType$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/DBType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/DBType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/DBTypeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/DBTypeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/DisciplineDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/DisciplineDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/GroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/GroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/LiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/LiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/SpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/SpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/StandartDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/StandartDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/Specialty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/Specialty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/Standart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/Standart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/Literature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/Literature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureStatus$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureStatus$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureStatus$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureStatus$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureStatus$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureStatus$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureStatus$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureStatus$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/data/literature/LiteratureStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleDAOFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleDAOFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleDisciplineDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleDisciplineDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleGroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleLiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleLiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleSpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleSpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleStandartDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleStandartDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/datalayer/oracledb/OracleUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/filter/AuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/filter/AuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/listiner/DAOInitialiserListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/listiner/DAOInitialiserListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/listiner/DAOInitialiserListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/listiner/DAOInitialiserListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/listiner/QuitListiner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/listiner/QuitListiner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/resourcebundledemo/Resourcer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/resourcebundledemo/Resourcer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/servlet/DAOServletManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/servlet/DAOServletManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/servlet/FrontController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/servlet/FrontController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/servlet/FrontController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/library_system_war_exploded/WEB-INF/classes/servlet/FrontController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ActionCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ActionCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ActionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ActionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/AddGroupCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/AddGroupCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/AddLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/AddLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/AddSpecialtyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/AddSpecialtyCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/AddUserCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/AddUserCommand$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/AddUserCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/AddUserCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ChangeGroupInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ChangeGroupInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ChangeLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ChangeLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ChangeUserInfoCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ChangeUserInfoCommand$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ChangeUserInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ChangeUserInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CheckLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CheckLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandRedirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandRedirection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/DeleteGroupCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/DeleteGroupCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/DeleteLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/DeleteLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/DeleteSpecialtyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/DeleteSpecialtyCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/DeleteUserCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/DeleteUserCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/EmptyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/EmptyCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ForwardToAddGroupCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ForwardToAddGroupCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ForwardToAddLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ForwardToAddLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ForwardToAddSpecialtyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ForwardToAddSpecialtyCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ForwardToAddUserCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ForwardToAddUserCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ForwardToCheckLiterature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ForwardToCheckLiterature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ForwardToMainPageCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ForwardToMainPageCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ForwardToReserveLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ForwardToReserveLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/GetGroupInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/GetGroupInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/GetGroupsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/GetGroupsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/GetLiteratureCollectionsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/GetLiteratureCollectionsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/GetLiteratureInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/GetLiteratureInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/GetOnlineUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/GetOnlineUsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/GetSpecialtiesCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/GetSpecialtiesCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/GetSpecialtyInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/GetSpecialtyInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/GetUserInfoCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/GetUserInfoCommand$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/GetUserInfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/GetUserInfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/GetUsersCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/GetUsersCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/LoginCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/LoginCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/LogoutCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/LogoutCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/RedirectionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/RedirectionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/ReserveLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/ReserveLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/SearchGroupsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/SearchGroupsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/SearchLiteratureCollectionsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/SearchLiteratureCollectionsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/SearchLiteratureCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/SearchLiteratureCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/SearchSpecialtiesCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/SearchSpecialtiesCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/SearchUsersCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/SearchUsersCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/DAOFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/DAOFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/DBType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/DBType$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/DBType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/DBType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/DBTypeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/DBTypeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/DisciplineDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/DisciplineDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/GroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/GroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/LiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/LiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/SpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/SpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/StandartDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/StandartDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/Specialty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/Specialty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/Standart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/Standart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/literature/Literature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/literature/Literature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureStatus$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureStatus$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureStatus$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureStatus$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureStatus$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureStatus$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureStatus$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureStatus$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/literature/LiteratureStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleDAOFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleDAOFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleDisciplineDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleDisciplineDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleGroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleLiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleLiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleSpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleSpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleStandartDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleStandartDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/filter/AuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/filter/AuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/listiner/DAOInitialiserListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listiner/DAOInitialiserListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/listiner/DAOInitialiserListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listiner/DAOInitialiserListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/listiner/QuitListiner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listiner/QuitListiner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resourcebundledemo/Resourcer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resourcebundledemo/Resourcer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet/DAOServletManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/DAOServletManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet/FrontController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/FrontController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet/FrontController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/FrontController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,85 +261,85 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tablemaker/TableMaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#377#384#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java">
-
+        <entry file="file://$PROJECT_DIR$/src/main/java/tablemaker/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#1453#1454#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1594#1595#0" expanded="true" />
+                <element signature="e#1621#1622#0" expanded="true" />
+                <element signature="e#1667#1668#0" expanded="true" />
+                <element signature="e#1694#1695#0" expanded="true" />
+                <element signature="e#1736#1737#0" expanded="true" />
+                <element signature="e#1763#1764#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DAOFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tablemaker/TableColumn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="48" />
-
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-
-            <state relative-caret-position="476">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
               </folding>
-
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DBType.java">
+        <entry file="file://$PROJECT_DIR$/tables.xml">
           <provider selected="true" editor-type-id="text-editor">
-
             <state relative-caret-position="272">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/ActionFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java">
           <provider selected="true" editor-type-id="text-editor">
-
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-
+            <state relative-caret-position="493">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/AddGroupCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-
-            <state relative-caret-position="187">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="15" />
-
             </state>
           </provider>
         </entry>
@@ -162,10 +347,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java">
           <provider selected="true" editor-type-id="text-editor">
-
-            <state relative-caret-position="-429">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-
+            <state relative-caret-position="408">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#631#632#0" expanded="true" />
@@ -176,35 +359,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java">
           <provider selected="true" editor-type-id="text-editor">
-
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-
-            <state relative-caret-position="289">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/FrontController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="1270" column="10" lean-forward="true" selection-start-line="1270" selection-start-column="10" selection-end-line="1270" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/StandartDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -262,6 +441,12 @@
         <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java" />
         <option value="$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TableMaker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tablemaker/tables.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tablemaker/TableColumn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tablemaker/TableMaker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tablemaker/Table.java" />
+        <option value="$PROJECT_DIR$/tables.xml" />
       </list>
     </option>
   </component>
@@ -279,15 +464,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-117" />
+    <option name="y" value="-15" />
+    <option name="width" value="1936" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -306,6 +490,11 @@
             <path>
               <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
               <item name="library_system" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -327,38 +516,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="listiner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resourcebundledemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library_system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="tablemaker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="library_system" type="b2602c69:ProjectViewProjectNode" />
@@ -391,6 +549,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Диплом\library_system" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\diplom\library_system\src\main\java\command" />
       <recent name="C:\Users\Admin\Desktop\Диплом\library_system\src\main\java\listiner" />
@@ -411,7 +572,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9">
+  <component name="RunManager" selected="Application.TableMaker">
+    <configuration name="TableMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tablemaker.TableMaker" />
+      <module name="library_system" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LocalTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/library_system_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -562,7 +730,13 @@
     <list>
       <item itemvalue="Tomcat Server.LocalTomcat" />
       <item itemvalue="Tomcat Server.Tomcat 9" />
+      <item itemvalue="Application.TableMaker" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TableMaker" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -575,58 +749,95 @@
       <option name="presentableId" value="Default" />
       <updated>1555526879543</updated>
       <workItem from="1555526886615" duration="2972000" />
-
       <workItem from="1555571458134" duration="3626000" />
-
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-
-    <option name="totallyTimeSpent" value="6598000" />
+    <option name="totallyTimeSpent" value="15214000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
-
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Application Servers" />
+      <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32555556" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
-
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32475883" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.42333335" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.33333334" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3288889" />
-      <window_info anchor="right" id="Palette" />
-
+      <window_info anchor="bottom" id="CheckStyle" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32475883" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.42333335" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.33333334" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3288889" />
+      <window_info anchor="bottom" id="CheckStyle" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="170" height="158" key="Git.Branch.Popup" />
+    <state width="170" height="158" key="Git.Branch.Popup/1920.1080/1920.1080" />
+    <state width="170" height="158" key="Git.Branch.Popup@1920.1080" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -762,13 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -780,28 +984,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java">
-
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/StandartDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1019">
-          <caret line="141" column="32" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
+        <state relative-caret-position="357">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-
         </state>
       </provider>
     </entry>
@@ -817,7 +1012,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/command/ActionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
@@ -878,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -887,10 +1080,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java">
       <provider selected="true" editor-type-id="text-editor">
-
-        <state relative-caret-position="-429">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-
+        <state relative-caret-position="408">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#631#632#0" expanded="true" />
@@ -899,14 +1090,92 @@
         </state>
       </provider>
     </entry>
-
     <entry file="file://$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-
+        <state relative-caret-position="493">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="1270" column="10" lean-forward="true" selection-start-line="1270" selection-start-column="10" selection-end-line="1270" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tablemaker/TableColumn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/StandartDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tables.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tablemaker/TableMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tablemaker/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1736#1737#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tables>
+    <Table table-name="USER_ROLE">
+        <Column name="NAME" type="VARCHAR(50)"></Column>
+    </Table>
+
+    <Table table-name="USER_STATUS">
+        <Column name="NAME" type="VARCHAR(50)"></Column>
+    </Table>
+
+    <Table table-name="USER">
+        <Column name="LOGIN" type="VARCHAR(20)"></Column>
+        <Column name="PASSWORD" type="VARCHAR(20)"></Column>
+        <Column name="FULL_NAME" type="VARCHAR(150)"></Column>
+        <Column name="ROLE" type="NUMBER(10)"></Column>
+    </Table>
+</Tables>
