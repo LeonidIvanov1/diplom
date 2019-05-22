@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="library:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="907d8318-86f8-47be-ba80-9ac6f3445359" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/ContactsContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Discipline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Disciplines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Groups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Specialties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Specialty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/AdminMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/DefaultMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/LibrarianMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/StudentMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/TeacherMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/UserInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/UserLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc6_12_1_0_1_atlassian_hosted.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ActionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/CommandEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/EmptyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ValueObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/AddDisciplineCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/ChangeDisciplineCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/DeleteDisciplineCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplineCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesIDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/groupscommnad/AddGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/groupscommnad/ChangeGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/groupscommnad/DeleteGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/groupscommnad/GetGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/AddSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/ChangeSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/DeleteSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtiesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/AddUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/ChangeUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/DeleteUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetGroupsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetGroupsCountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetStudentData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetTeacherDisciplinesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetUserCountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetUserInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetUsersCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/LogoutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/DBType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/DBTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/StandartDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Discipline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/GroupDiscipline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Specialty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/StudentData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/Literature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleStandartDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/AuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/CORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listiner/QuitListiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/TEST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/text.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/sql/create-tables.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/sql/insert-query.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/sql/queryes.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/InsertDataMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/FAQContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/FAQContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/UserLogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/UserMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/UserMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/.idea/artifacts/library_system_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/.idea/artifacts/library_system_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/TableMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/TableMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/tables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/TableMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/TableMaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/target/library_system-1.0-SNAPSHOT.jar" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="LIBRARY_DATABASE: schema" type="3abd1b6a:OraImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="LIBRARY_DATABASE: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="LIBRARY_DATABASE: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="views" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="LIBRARY_DATABASE: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="routines" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="LIBRARY_DATABASE: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="sequences" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="LIBRARY_DATABASE: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="synonyms" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2682">
+              <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getUsers</find>
+      <find>sear</find>
+      <find>searc</find>
+      <find>searchUser</find>
+      <find>getUserCo</find>
+      <find>getUser</find>
+      <find>getUsersC</find>
+      <find>getStud</find>
+      <find>getGrou</find>
+      <find>addStud</find>
+      <find>getUserById</find>
+      <find>delte</find>
+      <find>addUser</find>
+      <find>addteac</find>
+      <find>addlib</find>
+      <find>addTeacherData</find>
+      <find>changes</find>
+      <find>changestud</find>
+      <find>addGroup</find>
+      <find>add</find>
+      <find>chan</find>
+      <find>cha</find>
+      <find>getSpecialty</find>
+      <find>dele</find>
+      <find>change</find>
+      <find>public void l</find>
+      <find>sql.login</find>
+      <find>count</find>
+      <find>getUserByID</find>
+      <find>getGr</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/command/groupscommnad/GetGroupCommadn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/groupscommnad/GetGroupCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/groupscommnad/DeleteGroupCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtiesCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/groupscommnad/ChangeGroupCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/groupscommnad/AddGroupCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplineCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/Discipline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/ChangeDisciplineCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/DeleteDisciplineCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/AddDisciplineCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesIDCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtyCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/specialtiescommand/AddSpecialtyCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/specialtiescommand/DeleteSpecialtyCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/specialtiescommand/ChangeSpecialtyCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/userscommand/GetStudentData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/StudentData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/userscommand/ChangeUserCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/listiner/QuitListiner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/userscommand/LoginCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/userscommand/LogoutCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureType.java" />
+        <option value="/148fde63/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/routine/ADD_LIBRARY_FUND.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/TEST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Дiteraturecommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Literaturecommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCountCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureCollection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCountCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/literature/Literature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/CommandEnum.java" />
+        <option value="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console_3.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console_4.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/text.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleUserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="bintray" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="library Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="library Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="library Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2008" />
+    <option name="y" value="-17" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="literaturecommand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datalayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datalayer" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datalayer" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="literature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datalayer" type="462c0819:PsiDirectoryNode" />
+              <item name="oracledb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="listiner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resourcebundledemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library_system" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="datalayer.data.literature" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Диплом\library\src" />
+      <recent name="C:\Users\Admin\Desktop\Диплом\library\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Диплом\library\src\main" />
+      <recent name="C:\Users\Admin\Desktop\Диплом\library\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.19">
+    <configuration name="TEST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="servlet.TEST" />
+      <module name="library" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="resourcebundledemo.Test" />
+      <module name="library" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/library_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="library:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/library_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_library" />
+        <option name="HTTP_PORT" value="8088" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51505" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="library:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TEST" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="907d8318-86f8-47be-ba80-9ac6f3445359" name="Default Changelist" comment="" />
+      <created>1557501078351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557501078351</updated>
+      <workItem from="1557501080754" duration="25000" />
+      <workItem from="1557501150107" duration="5241000" />
+      <workItem from="1557511504254" duration="3154000" />
+      <workItem from="1557566234903" duration="2100000" />
+      <workItem from="1557593878441" duration="2216000" />
+      <workItem from="1557738706638" duration="196000" />
+      <workItem from="1557761520360" duration="4680000" />
+      <workItem from="1557771805807" duration="7008000" />
+      <workItem from="1557831290159" duration="1656000" />
+      <workItem from="1557848658832" duration="47673000" />
+      <workItem from="1558358640219" duration="1921000" />
+      <workItem from="1558360720824" duration="5531000" />
+      <workItem from="1558372459803" duration="38945000" />
+      <workItem from="1558530273430" duration="223000" />
+      <workItem from="1558530563539" duration="525000" />
+      <workItem from="1558533891166" duration="1081000" />
+      <workItem from="1558553547535" duration="1625000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="123800000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.52558637" weight="0.09317443" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7768052" weight="0.3900325" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827735" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.38678223" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.47441363" side_tool="true" visible="true" weight="0.09317443" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49946696" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4989339" weight="0.32827735" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.6215352" weight="0.33586133" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17910448" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32782516" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23043944" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.16793066" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827735" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.38678223" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32827735" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.2881907" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17270789" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32782516" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>request.</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>javax.servlet.http.HttpServletRequest</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getHeaderNames()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>javax.servlet.http.HttpServletRequest</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getParameterMap().size()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>javax.servlet.http.HttpServletRequest</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getParameterNames()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>javax.servlet.http.HttpServletRequest</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getParameter(&quot;command&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>javax.servlet.http.HttpServletRequest</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/disciplinescommand/DeleteDisciplineCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/disciplinescommand/AddDisciplineCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/groupscommnad/DeleteGroupCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../frontend/src/components/admin_menu/Disciplines.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/view/DISCIPLINE_VIEW" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesIDCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtyCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/specialtiescommand/AddSpecialtyCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="18" selection-start-line="18" selection-end-line="24" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="52" column="96" selection-start-line="52" selection-start-column="96" selection-end-line="52" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/specialtiescommand/DeleteSpecialtyCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/Specialty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/StudentData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/GetStudentData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/ChangeUserCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../frontend/src/components/user_menu/UserLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/table/STUDENTS_STUDENT_GROUP" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/specialtiescommand/ChangeSpecialtyCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listiner/QuitListiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/LoginCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/LogoutCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///148fde63/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/routine/ADD_LIBRARY_FUND.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/TEST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Literaturecommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCountCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="101" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="20" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="152" column="9" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4352">
+          <caret line="260" column="37" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCountCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/FrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="109" selection-start-line="18" selection-start-column="7" selection-end-line="22" selection-end-column="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/Literature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#2422#2423#0" expanded="true" />
+            <element signature="e#2447#2448#0" expanded="true" />
+            <element signature="e#2480#2481#0" expanded="true" />
+            <element signature="e#2508#2509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console_4.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/CommandEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/GetGroupsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="62" column="102" selection-start-line="62" selection-start-column="102" selection-end-line="62" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="152" column="70" selection-start-line="152" selection-start-column="70" selection-end-line="152" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/EmptyCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/text.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="106" column="161" selection-start-line="106" selection-start-column="161" selection-end-line="106" selection-end-column="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleUserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="658" column="23" selection-start-line="658" selection-start-column="23" selection-end-line="658" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getUsers#0;class#OracleUserDAO#0" />
+            <element signature="method#addAdministrator#0;class#OracleUserDAO#0" />
+            <element signature="method#addUser#0;class#OracleUserDAO#0" />
+            <element signature="method#setTeacherDiscipline#0;class#OracleUserDAO#0" />
+            <element signature="method#getUsersInGroup#0;class#OracleUserDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2682">
+          <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

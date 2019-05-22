@@ -1,17 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tables>
     <Table table-name="USER_ROLE">
-        <Column name="NAME" type="VARCHAR(50)"></Column>
+        <Column name="NAME" type="VARCHAR(150)"></Column>
     </Table>
 
     <Table table-name="USER_STATUS">
-        <Column name="NAME" type="VARCHAR(50)"></Column>
+        <Column name="NAME" type="VARCHAR(150)"></Column>
     </Table>
 
     <Table table-name="USER">
         <Column name="LOGIN" type="VARCHAR(20)"></Column>
         <Column name="PASSWORD" type="VARCHAR(20)"></Column>
-        <Column name="FULL_NAME" type="VARCHAR(150)"></Column>
+        <Column name="FULL_NAME" type="VARCHAR(250)"></Column>
         <Column name="ROLE" type="NUMBER(10)"></Column>
+        <Column name="STATUS" type="NUMBER(10)"></Column>
     </Table>
+
+    <Table table-name="BOOK_STATUS">
+        <Column name="NAME" type="VARCHAR(200)"></Column>
+    </Table>
+
+    <Table table-name="BOOK_TYPE">
+        <Column name="NAME" type="VARCHAR(200)"></Column>
+    </Table>
+
+    <Table table-name="LIBRARY_FUND">
+        <Column name="NAME" type="VARCHAR(1000)"></Column>
+        <Column name="AUTHOR" type="VARCHAR(1000)"></Column>
+        <Column name="ISBN" type="VARCHAR(150)"></Column>
+        <Column name="YEAR" type="VARCHAR(150)"></Column>
+        <Column name="DESCRIPTION" type="VARCHAR(1000)"></Column>
+        <Column name="RENTAL" type="NUMBER(10)"></Column>
+        <Column name="STATUS" type="NUMBER(10)"></Column>
+        <Column name="BOOK_TYPE" type="NUMBER(10)"></Column>
+        <Column name="HOLDER" type="NUMBER(10)"></Column>
+    </Table>
+
+
+    <Table table-name="STUDENT_GROUP">
+        <Column name="NAME" type="VARCHAR(250)"></Column>
+        <Column name="SPECIALTY" type="NUMBER(10)"></Column>
+    </Table>
+
+    <Table table-name="DISCIPLINE">
+        <Column name="NAME" type="VARCHAR(250)"></Column>
+    </Table>
+
+    <Table table-name="SPECIALTY">
+        <Column name="NAME" type="VARCHAR(250)"></Column>
+        <Column name="SPECIALTY_CODE" type="VARCHAR(150)"></Column>
+        <Column name="PARAMETER" type="FLOAT"></Column>
+        <Column name="DESCRIPTION" type="VARCHAR(500)"></Column>
+    </Table>
+
+    <Table table-name="STUDENTS">
+        <Column name="STUDENT" type="NUMBER(10)"></Column>
+        <Column name="STUDENT_GROUP" type="NUMBER(10)"></Column>
+        <Column name="LIBRARY_CARD" type="VARCHAR(50)"></Column>
+    </Table>
+
+    <Table table-name="TEACHERS">
+        <Column name="TEACHER" type="NUMBER(10)"></Column>
+        <Column name="STUDENT_GROUP" type="NUMBER(10)"></Column>
+        <Column name="DISCIPLINE" type="NUMBER(10)"></Column>
+    </Table>
+
+      <Table table-name="SP">
+        <Column name="DISCIPLINE" type="NUMBER(10)"></Column>
+        <Column name="SPECIALTY" type="NUMBER(10)"></Column>
+    </Table>
+
+    <Table table-name="GD">
+        <Column name="STUDENT_GROUP" type="NUMBER(10)"></Column>
+        <Column name="DISCIPLINE" type="NUMBER(10)"></Column>
+    </Table>
+
+
 </Tables>

@@ -1,6 +1,7 @@
 body {
     padding-top: 70px;
     background-color: #cce5ff !important;
+    height: 100%;
 }
 
 .home-page-title {
@@ -74,4 +75,59 @@ body {
     background-color: #f8f9fa;
     border-radius: 5px;
     text-align: center;
+}
+
+.user-info {
+    padding: 10px;
+}
+
+.data-table {
+    background-color: #fff;
+}
+
+.content-data {
+    padding-bottom: 100px;
+}
+.id-column {
+    display: none;
+}
+
+.paging {
+    margin: 0 auto;
+
+}
+.pagination li {
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 17px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pagination li a {
+    text-decoration: none;
+}
+.pagination .active {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.pagination .active a{
+    color: #fff;
+}
+
+.teacher-button {
+    height: 37px !important;
+    margin-top: 33px;
+}
+.delete-user {
+    margin-left: 25px;
+}
+
+.error {
+    margin-top: 20px;
 }

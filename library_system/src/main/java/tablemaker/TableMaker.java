@@ -22,7 +22,7 @@ public class TableMaker {
         parser.parse(new File("tables.xml"), handler);
 
         for (Table table : tables) {
-            System.out.println(table.createResultTables());
+            System.out.println(table.createTableInfo());
         }
     }
 

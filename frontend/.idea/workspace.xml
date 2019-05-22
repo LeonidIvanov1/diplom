@@ -2,58 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="604aadb9-3d3f-48d8-8238-96839ae0e537" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../library_system/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ActionCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ActionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/AddGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/AddLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/AddSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/AddUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ChangeGroupInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ChangeLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ChangeUserInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/CheckLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/CommandEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/CommandRedirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/DeleteGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/DeleteLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/DeleteSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/DeleteUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/EmptyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToAddGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToAddLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToAddSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToAddUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToCheckLiterature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToMainPageCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ForwardToReserveLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetGroupInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetGroupsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetLiteratureCollectionsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetLiteratureInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetOnlineUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetSpecialtiesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetSpecialtyInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetUserInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/GetUsersCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/LogoutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/RedirectionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/ReserveLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/SearchGroupsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/SearchLiteratureCollectionsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/SearchLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/SearchSpecialtiesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/command/SearchUsersCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactsContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/admin_menu/Discipline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/admin_menu/Disciplines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/admin_menu/Group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/admin_menu/Groups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/admin_menu/Specialties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/admin_menu/Specialty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/admin_menu/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/admin_menu/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/librarian_menu/Book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/librarian_menu/Library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user_menu/AdminMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user_menu/DefaultMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user_menu/LibrarianMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user_menu/StudentMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user_menu/TeacherMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user_menu/UserInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user_menu/UserLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/.idea/libraries/Maven__com_oracle_ojdbc6_12_1_0_1_atlassian_hosted.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/ActionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/ActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/CommandEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/EmptyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/ValueObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/AddDisciplineCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/ChangeDisciplineCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/DeleteDisciplineCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/GetDisciplineCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/GetDisciplinesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/GetDisciplinesIDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/groupscommnad/AddGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/groupscommnad/ChangeGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/groupscommnad/DeleteGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/groupscommnad/GetGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/GetLiteratureCollectionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/GetLiteratureCollectionCountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/GetLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/GetLiteratureCountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/specialtiescommand/AddSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/specialtiescommand/ChangeSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/specialtiescommand/DeleteSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/specialtiescommand/GetSpecialtiesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/specialtiescommand/GetSpecialtyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/AddUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/ChangeUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/DeleteUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetGroupsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetGroupsCountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetStudentData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetTeacherDisciplinesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetUserCountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetUserInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetUsersCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/LogoutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/DBType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/DBTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/DisciplineDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/GroupDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/LiteratureDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/SpecialtyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/StandartDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Discipline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/GroupDiscipline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Specialty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/StudentData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/literature/Literature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/literature/LiteratureCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/literature/LiteratureStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/literature/LiteratureType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleDAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleGroupDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleStandartDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/filter/AuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/filter/CORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/listiner/DAOInitialiserListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/listiner/QuitListiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/resourcebundledemo/Resourcer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/servlet/DAOServletManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/servlet/FrontController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/servlet/TEST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/resources/text.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/sql/create-tables.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/sql/insert-query.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/sql/queryes.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/InsertDataMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FAQContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FAQContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserLogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user_menu/UserMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/.idea/artifacts/library_system_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/.idea/artifacts/library_system_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../library_system/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/library_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/library_system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/out/artifacts/library_system_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/out/artifacts/library_system_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/out/artifacts/library_system_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/out/artifacts/library_system_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/DBType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/DBType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/data/Specialty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/data/Specialty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/oracledb/OracleDAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/datalayer/oracledb/OracleDAOFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/servlet/DAOServletManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/servlet/DAOServletManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/TableMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/TableMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/tables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/TableMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/TableMaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/target/library_system-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,13 +131,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/components/admin_menu/User.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="305">
+                    <caret line="370" column="4" selection-start-line="370" selection-start-column="4" selection-end-line="370" selection-end-column="4" />
+                    <folding>
+                      <element signature="e#0#39#0" expanded="true" />
+                      <element signature="n#!!block;n#getRequestData#0;n#User#0" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Content.js">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="646">
+              <caret line="56" column="93" selection-start-line="56" selection-start-column="93" selection-end-line="56" selection-end-column="93" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -79,10 +169,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+        <entry file="file://$PROJECT_DIR$/src/components/user_menu/LibrarianMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="425">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/librarian_menu/Library.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="302" column="21" selection-start-line="302" selection-start-column="21" selection-end-line="302" selection-end-column="21" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -91,19 +193,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.css">
+        <entry file="file://$PROJECT_DIR$/src/components/librarian_menu/Book.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/UserMenu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="344">
+              <caret line="263" column="37" lean-forward="true" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -112,36 +205,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+        <entry file="file://$PROJECT_DIR$/src/components/user_menu/AdminMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="510">
+              <caret line="32" column="24" selection-start-line="7" selection-start-column="10" selection-end-line="32" selection-end-column="24" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -151,6 +221,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -158,7 +229,26 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;;</find>
+      <find>ove</find>
+      <find>over</find>
+      <find>console</find>
+      <find>teacherSelectedDiscipline</find>
+      <find>groupDiscipline</find>
+      <find>console.</find>
+      <find>доба</find>
+      <find>addUser</find>
+      <find>console.log</find>
+      <find>specialtyDisciplines</find>
+      <find>group</find>
+      <find>JSO</find>
+      <find>this.prop</find>
+      <find>groups</find>
     </findStrings>
+    <replaceStrings>
+      <replace>specialties</replace>
+      <replace>specialty</replace>
+      <replace>book_collection</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>D:\Projects\diplom\frontend</dir>
     </dirStrings>
@@ -171,24 +261,50 @@
       <list>
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/components/NavigationBar.js" />
-        <option value="$PROJECT_DIR$/src/components/FAQContent.js" />
         <option value="$PROJECT_DIR$/src/components/Footer.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/HomePage.js" />
         <option value="$PROJECT_DIR$/src/components/HomePageContent.js" />
+        <option value="$PROJECT_DIR$/src/components/StaticComponent.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/FAQContent.js" />
+        <option value="$PROJECT_DIR$/src/components/ContactsPageContent.js" />
+        <option value="$PROJECT_DIR$/src/components/ContactsContent.js" />
         <option value="$PROJECT_DIR$/src/components/UserLogin.js" />
-        <option value="$PROJECT_DIR$/src/components/Content.js" />
-        <option value="$PROJECT_DIR$/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/UserMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/Content.js" />
+        <option value="$PROJECT_DIR$/src/components/user_menu/TeacherMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/user_menu/StudentMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/user_menu/package.json" />
+        <option value="$PROJECT_DIR$/src/components/user_menu/DefaultMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/user_menu/AdminMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/admin_menu/Users.jsx" />
+        <option value="$PROJECT_DIR$/src/components/admin_menu/UserData.js" />
+        <option value="$PROJECT_DIR$/src/components/admin_menu/Users.js" />
+        <option value="$PROJECT_DIR$/src/components/admin_menu/Groups.js" />
+        <option value="$PROJECT_DIR$/src/components/admin_menu/Group.js" />
+        <option value="$PROJECT_DIR$/src/components/admin_menu/Disciplines.js" />
+        <option value="$PROJECT_DIR$/src/components/admin_menu/Discipline.js" />
+        <option value="$PROJECT_DIR$/src/components/admin_menu/Specialties.js" />
+        <option value="$PROJECT_DIR$/src/components/admin_menu/Specialty.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/components/user_menu/UserMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/user_menu/UserLogin.js" />
+        <option value="$PROJECT_DIR$/src/components/user_menu/UserInfo.js" />
+        <option value="$PROJECT_DIR$/src/components/user_menu/LibrarianMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/admin_menu/User.js" />
+        <option value="$PROJECT_DIR$/src/components/librarian_menu/Library.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/librarian_menu/Book.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="17" />
+    <option name="y" value="-14" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -198,7 +314,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,10 +332,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="admin_menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="librarian_menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="user_menu" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,12 +371,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\diplom\frontend\src\img" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Диплом\frontend\src\components\user_menu" />
       <recent name="D:\Projects\diplom\frontend\src\img" />
     </key>
   </component>
@@ -285,11 +424,21 @@
       <workItem from="1555484010998" duration="15870000" />
       <workItem from="1555570588802" duration="130000" />
       <workItem from="1555570816106" duration="636000" />
+      <workItem from="1557512000438" duration="41000" />
+      <workItem from="1557512120256" duration="1976000" />
+      <workItem from="1557566265426" duration="3944000" />
+      <workItem from="1557589086123" duration="6519000" />
+      <workItem from="1557738737117" duration="810000" />
+      <workItem from="1557777926858" duration="28000" />
+      <workItem from="1557777988759" duration="89642000" />
+      <workItem from="1558374564061" duration="33727000" />
+      <workItem from="1558530301664" duration="2308000" />
+      <workItem from="1558553572579" duration="4471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17964000" />
+    <option name="totallyTimeSpent" value="161430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,26 +451,47 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840257" visible="true" weight="0.14805058" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840257" visible="true" weight="0.16280295" />
       <window_info id="Structure" order="1" sideWeight="0.50159746" side_tool="true" weight="0.24973656" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4963119" visible="true" weight="0.33261105" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50105375" side_tool="true" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5036881" side_tool="true" weight="0.3279743" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49947312" weight="0.3279743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840257" weight="0.14805058" />
+      <window_info id="Structure" order="1" sideWeight="0.50159746" side_tool="true" weight="0.24973656" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4963119" visible="true" weight="0.33261105" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.39978564" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5036881" side_tool="true" weight="0.3279743" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49947312" weight="0.3279743" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -332,20 +502,6 @@
         <state relative-caret-position="-172884" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FAQContent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/img/library.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -353,73 +509,48 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HomePage.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/HomePageContent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserLogin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state>
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/StaticComponent.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/user_menu/package.json" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="1405" column="36" lean-forward="true" selection-start-line="1405" selection-start-column="36" selection-end-line="1405" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="292" column="8" selection-start-line="292" selection-start-column="8" selection-end-line="292" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -430,10 +561,235 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FAQContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/user_menu/StudentMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/user_menu/TeacherMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ContactsContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Content.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HomePageContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326">
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/admin_menu/Disciplines.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-907">
+          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/admin_menu/Discipline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="135" column="57" selection-start-line="135" selection-start-column="57" selection-end-line="135" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#DiffArrays#0;n#Group#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/admin_menu/Specialties.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="126" column="57" selection-start-line="126" selection-start-column="57" selection-end-line="126" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/admin_menu/Specialty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="122" column="57" selection-start-line="122" selection-start-column="57" selection-end-line="122" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/user_menu/DefaultMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/user_menu/UserMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/user_menu/UserLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="73" column="69" lean-forward="true" selection-start-line="73" selection-start-column="69" selection-end-line="73" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/user_menu/UserInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/admin_menu/Group.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2351">
+          <caret line="176" column="24" selection-start-line="176" selection-start-column="4" selection-end-line="176" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="736">
+          <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/admin_menu/Groups.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="120" column="31" selection-end-line="214" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/admin_menu/Users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="124" selection-start-line="124" selection-end-line="127" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#getRole#0;n#Users#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/user_menu/LibrarianMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/user_menu/AdminMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="24" selection-start-line="7" selection-start-column="10" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/librarian_menu/Library.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="302" column="21" selection-start-line="302" selection-start-column="21" selection-end-line="302" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="56" column="93" selection-start-line="56" selection-start-column="93" selection-end-line="56" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/admin_menu/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="370" column="4" selection-start-line="370" selection-start-column="4" selection-end-line="370" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#getRequestData#0;n#User#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/librarian_menu/Book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="263" column="37" lean-forward="true" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
