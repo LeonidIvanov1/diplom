@@ -1,5 +1,7 @@
 package datalayer.data;
 
+import java.util.Objects;
+
 public class Discipline {
     private int disciplineID;
     private String name;
@@ -23,5 +25,19 @@ public class Discipline {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Discipline)) return false;
+        Discipline that = (Discipline) o;
+        return disciplineID == that.disciplineID &&
+                Objects.equals(name, that.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(disciplineID, name);
     }
 }

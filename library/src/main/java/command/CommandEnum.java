@@ -1,14 +1,8 @@
 package command;
 
 import command.disciplinescommand.*;
-import command.groupscommnad.AddGroupCommand;
-import command.groupscommnad.ChangeGroupCommand;
-import command.groupscommnad.DeleteGroupCommand;
-import command.groupscommnad.GetGroupCommand;
-import command.literaturecommand.GetLiteratureCollectionCommand;
-import command.literaturecommand.GetLiteratureCollectionCountCommand;
-import command.literaturecommand.GetLiteratureCommand;
-import command.literaturecommand.GetLiteratureCountCommand;
+import command.groupscommnad.*;
+import command.literaturecommand.*;
 import command.specialtiescommand.*;
 import command.userscommand.*;
 
@@ -157,6 +151,79 @@ public enum CommandEnum {
         {
             this.command = new GetLiteratureCommand();
         }
+    }, GET_BOOK_INFO {
+        {
+            this.command = new GetBookInfoCommand();
+        }
+    }, ADD_BOOK {
+        {
+            this.command = new AddBookCommand();
+        }
+    }, CHANGE_BOOK {
+        {
+            this.command = new ChangeBookCommand();
+        }
+    }, DELETE_BOOK {
+        {
+            this.command = new DeleteBookCommand();
+        }
+    }, GET_USER_BOOKS {
+        {
+            this.command = new GetUserBooksCommand();
+        }
+    }, GET_BOOKS_DATE {
+
+        {
+            this.command = new GetBooksDatesCommand();
+        }
+
+    }, RETURN_LITERATURE {
+        {
+            this.command = new ReturnLiteratureCommand();
+        }
+
+    }, EXTEND_LITERATURE {
+        {
+            this.command = new ExtendLiteratureCommand();
+        }
+    }, GET_SPECIALTY_DISCIPLINES {
+        {
+            this.command = new GetSpecialtyDisciplinesCommand();
+        }
+
+    }, CHECK_LITERATURE {
+        {
+            this.command = new CheckLiterature();
+        }
+    }, GET_DISCIPLINES_GROUP {
+        {
+            this.command = new GetDisciplineGroupsCommand();
+        }
+    }, GET_LIBRARY_FUND_INFO {
+        {
+            this.command = new GetLibraryFundDataCommand();
+        }
+    }, GET_DEBTOR_STUDENTS {
+        {
+            this.command = new GetDebtorsStudentsCommand();
+        }
+    }, GET_TEACHER_GROUPS {
+        {
+            this.command = new GetTeacherGroupsCommand();
+        }
+    }, CREATE_RESERVE_REQUEST {
+        {
+            this.command = new CreateReserveRequest();
+        }
+    }, GET_RESERVE_LIST {
+        {
+            this.command = new GetReserveRequestsListCommand();
+        }
+
+    }, DELETE_RESERVE_REQUEST {
+        {
+            this.command = new DeleteReserveRequestCommand();
+        }
     };
 
 
@@ -170,4 +237,4 @@ public enum CommandEnum {
     public ActionCommand getCurrentCommand() {
         return command;
     }
-    }
+}

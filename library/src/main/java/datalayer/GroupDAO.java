@@ -63,4 +63,8 @@ public interface GroupDAO {
 
     void changeGroup(String name, int specialtyID,
                      List<String> disciplines, int groupID);
+
+    List<Group> getGroupsWithDisciplines(int specialtyID, int disciplineID);
+
+    List<Group> getTeacherDisciplines(int userID);
 }

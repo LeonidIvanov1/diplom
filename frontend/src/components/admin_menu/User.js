@@ -17,13 +17,14 @@ class User extends Component {
             group: "",
             lib_card: "",
             disciplines: [],
-            groups: [],
+            specialties: [],
             teacherSelectedGroup: "",
             teacherSelectedDiscipline: "",
             groupDiscipline: [],
             change: false,
             get_user_info: false,
-            user_id: ""
+            user_id: "",
+            groupName:""
 
         }
     }
@@ -94,7 +95,7 @@ class User extends Component {
             .then(response => {
                 return JSON.parse(response);
             }).then(data => {
-            this.setState({groups: data.value})
+            this.setState({specialties: data.value})
         }).catch(function (error) {
             console.log('There has been a problem with your fetch operation' + error.message);
         });
@@ -138,7 +139,6 @@ class User extends Component {
     }
 
     setNeedData() {
-        console.log(this.state.role + " ROLE2")
 
         if (this.state.role === 'TEACHER') {
             let data = {
@@ -185,7 +185,6 @@ class User extends Component {
                     if (data.value.group.groupID != undefined) {
                         grID = data.value.group.groupID;
                     }
-                    console.log(grID);
                     this.setState({lib_card: data.value.libCardNumber, group: grID});
                 }
             ).catch(function (error) {
@@ -196,9 +195,9 @@ class User extends Component {
 
     getGroupsOptions() {
         let options = [];
-        for (let i = 0; i < this.state.groups.length; i++) {
-            options.push(<option key={i + this.state.groups[i].name}
-                                 value={this.state.groups[i].groupID}>{this.state.groups[i].name}</option>);
+        for (let i = 0; i < this.state.specialties.length; i++) {
+            options.push(<option key={i + this.state.specialties[i].name}
+                                 value={this.state.specialties[i].groupID} id={this.state.specialties[i].name}>{this.state.specialties[i].name}</option>);
         }
         return options;
     }
@@ -217,20 +216,21 @@ class User extends Component {
     getGroupDisciplines() {
         let options = [];
 
+
         let disciplines = [];
         let selectedDisciplines = [];
         for (let i = 0; i < this.state.groupDiscipline.length; i++) {
-            if (this.state.groupDiscipline[i].group === this.state.teacherSelectedGroup) {
+            if (this.state.groupDiscipline[i].group === this.getGroupName(this.state.teacherSelectedGroup)) {
                 selectedDisciplines.push(this.state.groupDiscipline[i].discipline);
             }
         }
 
 
 
-        for (let i = 0; i < this.state.groups.length; i++) {
-            if (+this.state.groups[i].groupID === +this.state.teacherSelectedGroup) {
+        for (let i = 0; i < this.state.specialties.length; i++) {
+            if (+this.state.specialties[i].groupID === +this.state.teacherSelectedGroup) {
 
-                disciplines = this.state.groups[i].disciplines;
+                disciplines = this.state.specialties[i].disciplines;
             }
         }
 
@@ -263,6 +263,15 @@ class User extends Component {
         return rows;
     };
 
+    getGroupName(id) {
+        let groupName;
+        for (let i = 0; i <this.state.specialties.length; i++) {
+            if (+this.state.specialties[i].groupID === +this.state.teacherSelectedGroup) {
+                groupName = this.state.specialties[i].name;
+            }
+        }
+        return groupName;
+    }
     addGroupDiscipline = (data) => {
 
         if (this.state.teacherSelectedGroup !== "" && this.state.teacherSelectedDiscipline != "") {
@@ -270,7 +279,7 @@ class User extends Component {
 
                 let groupDisciplineData = this.state.groupDiscipline;
                 groupDisciplineData.push({
-                    group: this.state.teacherSelectedGroup,
+                    group: this.getGroupName(this.state.teacherSelectedGroup),
                     discipline: this.state.teacherSelectedDiscipline
                 });
                 this.setState({
@@ -283,8 +292,6 @@ class User extends Component {
     };
 
     showAddData() {
-        console.log(this.state.group);
-        console.log("шруппа");
         switch (this.state.role.toLowerCase()) {
             case 'student':
                 return <Form.Row>
@@ -311,7 +318,6 @@ class User extends Component {
                         <Form.Group as={Col} controlId="groupsSelect">
                             <Form.Label>Группа</Form.Label>
                             <Form.Control as="select" onChange={(event) => {
-
                                 this.setState({teacherSelectedGroup: event.target.value})
 
                             }}>

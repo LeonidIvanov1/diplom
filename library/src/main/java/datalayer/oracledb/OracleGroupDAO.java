@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import datalayer.DisciplineDAO;
+import oracle.jdbc.proxy.annotation.Pre;
 import resourcebundledemo.Resourcer;
 
 import datalayer.DAOFactory;
@@ -15,6 +16,7 @@ import datalayer.data.Specialty;
 import datalayer.data.User;
 
 public class OracleGroupDAO implements GroupDAO {
+
 
     private Connection connection;
 
@@ -78,11 +80,6 @@ public class OracleGroupDAO implements GroupDAO {
     }
 
 
-
-
-
-
-
     public void addGroup(String name, String specialty,
                          List<String> disciplines) {
     }
@@ -143,6 +140,58 @@ public class OracleGroupDAO implements GroupDAO {
         }
 
 
+    }
+
+    @Override
+    public List<Group> getGroupsWithDisciplines(int specialtyID, int disciplineID) {
+        List<Group> groups = new ArrayList<Group>();
+        PreparedStatement ps;
+        ResultSet rs = null;
+        try {
+
+            ps = connection.prepareStatement(Resourcer.getString("sql.getGroupsWithDisciplines"));
+            ps.setInt(2, specialtyID);
+            ps.setInt(1, disciplineID);
+            rs = ps.executeQuery();
+            while (rs.next()) {
+                DAOFactory df = DAOFactory.getInstance(DBType.ORACLE);
+                int groupID = rs.getInt(1);
+                String name = rs.getString(2);
+                Specialty specialty = df.getSpecialtyDAO().
+                        getSpecialty(rs.getInt(3));
+                List<String> disciplines = df.getDisciplineDAO().getSpecialtyDisciplines(groupID);
+                List<User> users = df.getUserDAO().getStudentsInGroup(groupID);
+                groups.add(new Group(groupID, name, specialty, users, disciplines));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return groups;
+    }
+
+    @Override
+    public List<Group> getTeacherDisciplines(int userID) {
+        List<Group> group = new ArrayList<>();
+        try {
+            PreparedStatement ps = connection.prepareStatement(Resourcer.getString("sql.getTeacherGroups"));
+            ps.setInt(1, userID);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                int groupID = rs.getInt(1);
+                DAOFactory df = DAOFactory.getInstance(DBType.ORACLE);
+
+                String name = rs.getString(2);
+                Specialty specialty = df.getSpecialtyDAO().
+                        getSpecialty(rs.getInt(3));
+                List<String> disciplines = getGroupDisciplines(groupID);
+                List<User> users = df.getUserDAO().getStudentsInGroup(groupID);
+                group.add(new Group(groupID, name, specialty, users, disciplines));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return group;
     }
 
 
@@ -257,7 +306,6 @@ public class OracleGroupDAO implements GroupDAO {
             addGroupDiscipline(groupID, dis);
         }
     }
-
 
 
 }

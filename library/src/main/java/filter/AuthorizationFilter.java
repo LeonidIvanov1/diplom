@@ -34,7 +34,8 @@ public class AuthorizationFilter implements Filter {
 	public void doFilter(ServletRequest req, ServletResponse res,
 			FilterChain chain) throws IOException, ServletException {
 		req.setCharacterEncoding(UTF_8);
-		checkSession(req, res, chain);
+		//checkSession(req, res, chain);
+		chain.doFilter(req, res);
 
 	}
 

@@ -7,119 +7,146 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8af1859-8f77-455d-887f-b234e4e5340b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/ContactsContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Discipline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Disciplines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Groups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Specialties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Specialty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/AdminMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/DefaultMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/LibrarianMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/StudentMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/TeacherMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/UserInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/UserLogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/.idea/libraries/Maven__com_oracle_ojdbc6_12_1_0_1_atlassian_hosted.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/ActionCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/ActionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/CommandEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/EmptyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/ValueObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/AddDisciplineCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/ChangeDisciplineCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/DeleteDisciplineCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/GetDisciplineCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/GetDisciplinesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/disciplinescommand/GetDisciplinesIDCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/groupscommnad/AddGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/groupscommnad/ChangeGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/groupscommnad/DeleteGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/groupscommnad/GetGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/specialtiescommand/AddSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/specialtiescommand/ChangeSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/specialtiescommand/DeleteSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/specialtiescommand/GetSpecialtiesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/specialtiescommand/GetSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/AddUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/ChangeUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/DeleteUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetGroupsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetGroupsCountCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetStudentData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetTeacherDisciplinesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetUserCountCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetUserInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetUsersCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/LogoutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/DBType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/DBTypeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/DisciplineDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/GroupDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/LiteratureDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/SpecialtyDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/StandartDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Discipline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/GroupDiscipline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Specialty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/StudentData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/literature/Literature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/literature/LiteratureCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/literature/LiteratureStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleDAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleGroupDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleStandartDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/filter/AuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/filter/CORSFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/listiner/DAOInitialiserListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/listiner/QuitListiner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/resourcebundledemo/Resourcer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/servlet/DAOServletManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/java/servlet/FrontController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library/src/main/resources/text.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/create-tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/insert-query.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/queryes.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tablemaker/InsertDataMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Debtors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/FGOSCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Fgos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Fund.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Reader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Readers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/student_menu/TakenLiterature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/student_menu/UserLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/groupscommnad/GetDisciplineGroupsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/AddBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/ChangeBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/CheckLiterature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/DeleteBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/ExtendLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/GetBookInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/GetBooksDatesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/GetLibraryFundDataCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/GetUserBooksCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/literaturecommand/ReturnLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/specialtiescommand/GetSpecialtyDisciplinesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/command/userscommand/GetDebtorsStudentsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/literature/LiteratureDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/literature/LiteratureFundData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/FAQContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/FAQContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/UserLogin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/UserMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/UserMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/library_system_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/library_system_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tablemaker/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tablemaker/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tablemaker/TableMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tablemaker/TableMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/user_menu/LibrarianMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/LibrarianMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/user_menu/StudentMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/StudentMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/user_menu/TeacherMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/TeacherMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/command/CommandEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/command/CommandEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/datalayer/GroupDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/GroupDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/datalayer/LiteratureDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/LiteratureDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/datalayer/SpecialtyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/SpecialtyDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Discipline.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/data/Discipline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleGroupDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleGroupDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/datalayer/oracledb/OracleUserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/filter/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/filter/AuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/servlet/FrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/servlet/FrontController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/java/servlet/TEST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/src/main/resources/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/resources/text.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/command/CommandEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/datalayer/GroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/datalayer/GroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/datalayer/LiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/datalayer/LiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/datalayer/SpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/datalayer/SpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/datalayer/data/Discipline.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/datalayer/data/Discipline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/datalayer/oracledb/OracleDisciplineDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/datalayer/oracledb/OracleDisciplineDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/datalayer/oracledb/OracleGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/datalayer/oracledb/OracleGroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/datalayer/oracledb/OracleLiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/datalayer/oracledb/OracleLiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/datalayer/oracledb/OracleSpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/datalayer/oracledb/OracleSpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/datalayer/oracledb/OracleUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/datalayer/oracledb/OracleUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/filter/AuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/filter/AuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/servlet/FrontController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/servlet/FrontController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/servlet/TEST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/classes/text.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library.war" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/command/CommandEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/GroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/GroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/LiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/LiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/SpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/SpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/data/Discipline.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/data/Discipline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/oracledb/OracleDisciplineDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/oracledb/OracleDisciplineDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/oracledb/OracleGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/oracledb/OracleGroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/oracledb/OracleLiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/oracledb/OracleLiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/oracledb/OracleSpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/oracledb/OracleSpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/oracledb/OracleUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/datalayer/oracledb/OracleUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/filter/AuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/filter/AuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/servlet/FrontController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/servlet/FrontController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/servlet/TEST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../library/target/library/WEB-INF/classes/text.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/create-tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/create-tables.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tables.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tablemaker/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tablemaker/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tablemaker/TableMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tablemaker/TableMaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library_system-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -176,11 +203,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sql/create-tables.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27336">
-              <caret line="1608" column="4" selection-start-line="1608" selection-start-column="4" selection-end-line="1608" selection-end-column="4" />
+            <state relative-caret-position="793">
+              <caret line="1818" column="4" selection-start-line="1818" selection-start-column="4" selection-end-line="1818" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -208,11 +235,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tables.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="386">
+              <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -220,8 +247,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tablemaker/TableMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+            <state relative-caret-position="136">
+              <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -302,8 +329,8 @@
         <option value="$PROJECT_DIR$/sql/queryes.sql" />
         <option value="$PROJECT_DIR$/sql/insert-query.sql" />
         <option value="$PROJECT_DIR$/src/main/java/tablemaker/Table.java" />
-        <option value="$PROJECT_DIR$/sql/create-tables.sql" />
         <option value="$PROJECT_DIR$/tables.xml" />
+        <option value="$PROJECT_DIR$/sql/create-tables.sql" />
       </list>
     </option>
   </component>
@@ -335,8 +362,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -646,11 +673,12 @@
       <workItem from="1558364877015" duration="191000" />
       <workItem from="1558460136008" duration="733000" />
       <workItem from="1558464779958" duration="98000" />
+      <workItem from="1558796455426" duration="2283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70679000" />
+    <option name="totallyTimeSpent" value="72962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -663,8 +691,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2563966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25906184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -855,20 +884,6 @@ GROUP BY USER_LOGIN.ID</expression-string>
     <entry file="file://$PROJECT_DIR$/src/main/java/tablemaker/TableColumn.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/tablemaker/InsertDataMaker.java" />
     <entry file="file://$PROJECT_DIR$/.idea/table_generator.iml" />
-    <entry file="file://$PROJECT_DIR$/sql/create-tables.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27336">
-          <caret line="1608" column="4" selection-start-line="1608" selection-start-column="4" selection-end-line="1608" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/queryes.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/text.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -879,6 +894,13 @@ GROUP BY USER_LOGIN.ID</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sql/queryes.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sql/insert-query.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -886,17 +908,24 @@ GROUP BY USER_LOGIN.ID</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tablemaker/TableMaker.java">
+    <entry file="file://$PROJECT_DIR$/tables.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        <state relative-caret-position="386">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tables.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tablemaker/TableMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="136">
+          <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/create-tables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="1818" column="4" selection-start-line="1818" selection-start-column="4" selection-end-line="1818" selection-end-column="4" />
         </state>
       </provider>
     </entry>

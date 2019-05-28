@@ -2,8 +2,11 @@ package datalayer.oracledb;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
+import datalayer.data.Discipline;
 import resourcebundledemo.Resourcer;
 
 import datalayer.SpecialtyDAO;
@@ -117,5 +120,42 @@ public class OracleSpecialtyDAO implements SpecialtyDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    List<Integer> getSpecialtyGroupsID (int specialtyID) {
+        List<Integer> ids = new ArrayList<>();
+        try {
+            PreparedStatement ps = connection.prepareStatement(Resourcer.getString("sql.getSpecialtyGroupsID"));
+            ps.setInt(1, specialtyID);
+            ResultSet rs = ps.executeQuery();
+            while(rs.next()) {
+                ids.add(rs.getInt(1));
+            }
+            rs.close();
+            ps.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return  ids;
+    }
+    @Override
+    public Set<Discipline> getSpecialtyDisciplines(int specialtyID) {
+        Set<Discipline> disciplineSet = new HashSet<>();
+        List<Integer> groups = getSpecialtyGroupsID(specialtyID);
+        for (Integer groupID : groups) {
+            try {
+                PreparedStatement ps = connection.prepareStatement(Resourcer.getString("sql.getSpecialtyDisciplines"));
+                ps.setInt(1, groupID);
+                ResultSet rs = ps.executeQuery();
+                while(rs.next()) {
+                    disciplineSet.add(new Discipline(rs.getInt(1), rs.getString(2)));
+                }
+                rs.close();
+                ps.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        return disciplineSet;
     }
 }

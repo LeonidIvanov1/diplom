@@ -7,125 +7,160 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="907d8318-86f8-47be-ba80-9ac6f3445359" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/ContactsContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Discipline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Disciplines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Groups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Specialties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Specialty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/AdminMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/DefaultMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/LibrarianMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/StudentMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/TeacherMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/UserInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/UserLogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc6_12_1_0_1_atlassian_hosted.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ActionCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ActionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/CommandEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/EmptyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/ValueObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/AddDisciplineCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/ChangeDisciplineCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/DeleteDisciplineCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplineCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesIDCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/groupscommnad/AddGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/groupscommnad/ChangeGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/groupscommnad/DeleteGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/groupscommnad/GetGroupCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCountCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCountCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/AddSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/ChangeSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/DeleteSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtiesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/AddUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/ChangeUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/DeleteUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetGroupsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetGroupsCountCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetStudentData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetTeacherDisciplinesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetUserCountCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetUserInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetUsersCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/LogoutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/DBType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/DBTypeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/StandartDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Discipline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/GroupDiscipline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Specialty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/StudentData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/Literature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleStandartDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/AuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/CORSFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listiner/DAOInitialiserListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listiner/QuitListiner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resourcebundledemo/Resourcer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/DAOServletManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/TEST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/text.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/sql/create-tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/sql/insert-query.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/sql/queryes.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/InsertDataMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Debtors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/FGOSCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Fgos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Fund.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Reader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Readers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/student_menu/TakenLiterature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/student_menu/UserLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/teacher_menu/ReserveRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/teacher_menu/ReserveRequestList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/groupscommnad/GetDisciplineGroupsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/AddBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/ChangeBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/CheckLiterature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/CreateReserveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/DeleteBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/DeleteReserveRequestCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/ExtendLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetBookInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetBooksDatesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLibraryFundDataCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetReserveRequestsListCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetUserBooksCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/ReturnLiteratureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtyDisciplinesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetDebtorsStudentsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetTeacherGroupsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureFundData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/ReserveRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/FAQContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/FAQContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/UserLogin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/UserMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/UserMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/.idea/artifacts/library_system_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/.idea/artifacts/library_system_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Disciplines.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Disciplines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Groups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/admin_menu/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/user_menu/LibrarianMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/LibrarianMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/user_menu/StudentMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/StudentMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/user_menu/TeacherMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/TeacherMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/storage_v2/_src_/schema/LIBRARY_DATABASE.nwCeaQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/storage_v2/_src_/schema/LIBRARY_DATABASE.nwCeaQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/storage_v2/_src_/schema/LIBRARY_DATABASE.nwCeaQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/storage_v2/_src_/schema/LIBRARY_DATABASE.nwCeaQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/CommandEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/CommandEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/data/Discipline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Discipline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleUserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filter/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filter/AuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/TEST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/GroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/GroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/LiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/LiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/SpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/SpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/Discipline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/Discipline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleDisciplineDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleDisciplineDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleGroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleLiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleLiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleSpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleSpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/filter/AuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/filter/AuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet/FrontController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/FrontController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet/TEST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/text.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/library.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/GroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/GroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/LiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/LiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/SpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/SpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/data/Discipline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/data/Discipline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleDisciplineDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleDisciplineDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleGroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleLiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleLiteratureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleSpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleSpecialtyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/filter/AuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/filter/AuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/servlet/FrontController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/servlet/FrontController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/servlet/TEST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/text.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../library_system/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/TableMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/src/main/java/tablemaker/TableMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library_system/sql/create-tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/sql/create-tables.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../library_system/tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/tables.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/TableMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/target/classes/tablemaker/TableMaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/target/library_system-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -160,31 +195,7 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="LIBRARY_DATABASE: schema" type="3abd1b6a:OraImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="LIBRARY_DATABASE: schema" type="3abd1b6a:OraImplModel$Schema" />
-        <item name="views" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="LIBRARY_DATABASE: schema" type="3abd1b6a:OraImplModel$Schema" />
         <item name="routines" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="LIBRARY_DATABASE: schema" type="3abd1b6a:OraImplModel$Schema" />
-        <item name="sequences" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="LIBRARY_DATABASE: schema" type="3abd1b6a:OraImplModel$Schema" />
-        <item name="synonyms" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -192,13 +203,128 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console.sql">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state>
+                    <caret selection-end-column="32" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/resources/text.properties">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="278">
+                    <caret line="173" column="56" selection-start-line="173" selection-start-column="56" selection-end-line="173" selection-end-column="56" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2682">
-              <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+            <state relative-caret-position="384">
+              <caret line="483" column="83" lean-forward="true" selection-start-line="483" selection-start-column="83" selection-end-line="483" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/CommandEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="215" column="42" lean-forward="true" selection-start-line="215" selection-start-column="42" selection-end-line="215" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/ReserveRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/Literature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/CreateReserveRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetReserveRequestsListCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="63" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/FrontController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -214,27 +340,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getUsers</find>
-      <find>sear</find>
-      <find>searc</find>
-      <find>searchUser</find>
-      <find>getUserCo</find>
-      <find>getUser</find>
-      <find>getUsersC</find>
-      <find>getStud</find>
-      <find>getGrou</find>
-      <find>addStud</find>
-      <find>getUserById</find>
-      <find>delte</find>
-      <find>addUser</find>
-      <find>addteac</find>
-      <find>addlib</find>
-      <find>addTeacherData</find>
-      <find>changes</find>
-      <find>changestud</find>
       <find>addGroup</find>
-      <find>add</find>
-      <find>chan</find>
       <find>cha</find>
       <find>getSpecialty</find>
       <find>dele</find>
@@ -244,6 +350,26 @@
       <find>count</find>
       <find>getUserByID</find>
       <find>getGr</find>
+      <find>add</find>
+      <find>get_user</find>
+      <find>getBookI</find>
+      <find>chan</find>
+      <find>getUserById</find>
+      <find>getBookIn</find>
+      <find>SPECIALTIES</find>
+      <find>DISCIPLINES</find>
+      <find>getLiteratureColl</find>
+      <find>get_specialty</find>
+      <find>get_d</find>
+      <find>get_gro</find>
+      <find>LiteratureDate</find>
+      <find>getB</find>
+      <find>get_user_</find>
+      <find>get_teacher</find>
+      <find>spec</find>
+      <find>teache</find>
+      <find>teac</find>
+      <find>CREATE_RESERVE_REQUEST</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -255,57 +381,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/command/groupscommnad/GetGroupCommadn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/groupscommnad/GetGroupCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/groupscommnad/DeleteGroupCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtiesCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/groupscommnad/ChangeGroupCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/groupscommnad/AddGroupCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplineCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/Discipline.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/ChangeDisciplineCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/DeleteDisciplineCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/AddDisciplineCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesIDCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtyCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/specialtiescommand/AddSpecialtyCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/specialtiescommand/DeleteSpecialtyCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/specialtiescommand/ChangeSpecialtyCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/userscommand/GetStudentData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/StudentData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/userscommand/ChangeUserCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/listiner/QuitListiner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/userscommand/LoginCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/userscommand/LogoutCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureType.java" />
-        <option value="/148fde63/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/routine/ADD_LIBRARY_FUND.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/TEST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/Дiteraturecommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/Literaturecommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCountCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureCollection.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCountCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/data/literature/Literature.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/CommandEnum.java" />
         <option value="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console_3.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console_4.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/text.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/AddBookCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/DeleteBookCommand.java" />
+        <option value="/148fde63/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/routine/CHANGE_LIBRARY_FUND.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console_5.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetBookInfoCommand.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/ChangeBookCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetUserBooksCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/AuthorizationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleUserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/ReturnLiteratureCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/ExtendLiteratureCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/Discipline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtyDisciplines.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/CheckLiterature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/groupscommnad/GetDisciplineGroupsCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/Specialty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureFundData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLibraryFundDataCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/userscommand/GetDebtorsStudentsCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetTakenLiteratureCommand.java" />
+        <option value="/148fde63/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/routine/ADD_RESERVE.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/GroupDiscipline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/userscommand/GetTeacherGroupsCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetBooksDatesCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/data/literature/ReserveRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetReserveRequestsListCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/DeleteReserveRequestCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/CommandEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/literaturecommand/CreateReserveRequest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/text.properties" />
       </list>
     </option>
   </component>
@@ -354,10 +480,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2008" />
+    <option name="x" value="2238" />
     <option name="y" value="-17" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -367,8 +493,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -409,7 +533,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="groupscommnad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
               <item name="literaturecommand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="specialtiescommand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="userscommand" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="library" type="b2602c69:ProjectViewProjectNode" />
@@ -490,16 +641,40 @@
               <item name="library" type="b2602c69:ProjectViewProjectNode" />
               <item name="library" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="library" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="b4aa7b9c-7725-444c-999d-3bda8b12a7d0" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -646,11 +821,14 @@
       <workItem from="1558530563539" duration="525000" />
       <workItem from="1558533891166" duration="1081000" />
       <workItem from="1558553547535" duration="1625000" />
+      <workItem from="1558558116860" duration="11418000" />
+      <workItem from="1558614377510" duration="27357000" />
+      <workItem from="1558796424331" duration="17624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123800000" />
+    <option name="totallyTimeSpent" value="180199000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -665,30 +843,30 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837488" visible="true" weight="0.19349681" />
+      <window_info id="Structure" order="1" sideWeight="0.5016251" side_tool="true" visible="true" weight="0.19349681" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.52558637" weight="0.09317443" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7768052" weight="0.3900325" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5234541" weight="0.42036837" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77398723" weight="0.30444205" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32827735" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.38678223" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.47441363" side_tool="true" visible="true" weight="0.09317443" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49946696" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49840087" weight="0.38678223" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.2260128" side_tool="true" weight="0.3900325" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.4989339" weight="0.32827735" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4989339" weight="0.32827735" />
-      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.6215352" weight="0.33586133" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.6178038" weight="0.33586133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17910448" />
+      <window_info anchor="right" id="Database" order="3" weight="0.56236327" />
       <window_info anchor="right" id="Maven" order="4" weight="0.32782516" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
@@ -723,6 +901,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/command/literaturecommand/CreateReserveRequest.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -759,80 +949,17 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/disciplinescommand/DeleteDisciplineCommand.java">
+    <entry file="dbSrc:///148fde63/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/routine/ADD_DISCIPLINE.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/disciplinescommand/AddDisciplineCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/groupscommnad/DeleteGroupCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../frontend/src/components/admin_menu/Disciplines.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/ExtendLiteratureCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/view/DISCIPLINE_VIEW" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplinesIDCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtyCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/specialtiescommand/AddSpecialtyCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="18" selection-start-line="18" selection-end-line="24" selection-end-column="55" />
+          <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -841,15 +968,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="52" column="96" selection-start-line="52" selection-start-column="96" selection-end-line="52" selection-end-column="96" />
+        <state relative-caret-position="385">
+          <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/specialtiescommand/DeleteSpecialtyCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/Discipline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtyDisciplinesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/CheckLiterature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/disciplinescommand/GetDisciplineCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtyCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/groupscommnad/GetDisciplineGroupsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -858,272 +1030,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/Specialty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/StudentData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/GetStudentData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/ChangeUserCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../frontend/src/components/user_menu/UserLogin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/table/STUDENTS_STUDENT_GROUP" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/specialtiescommand/ChangeSpecialtyCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/listiner/QuitListiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/LoginCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/LogoutCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbSrc:///148fde63/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/routine/ADD_LIBRARY_FUND.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/TEST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/Literaturecommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#1287#1288#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCountCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="101" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="20" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="152" column="9" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console_3.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4352">
-          <caret line="260" column="37" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCountCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/FrontController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="109" selection-start-line="18" selection-start-column="7" selection-end-line="22" selection-end-column="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/Literature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="e#2422#2423#0" expanded="true" />
-            <element signature="e#2447#2448#0" expanded="true" />
-            <element signature="e#2480#2481#0" expanded="true" />
-            <element signature="e#2508#2509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console_4.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/CommandEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/GetGroupsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="62" column="102" selection-start-line="62" selection-start-column="102" selection-end-line="62" selection-end-column="102" />
+        <state relative-caret-position="504">
+          <caret line="148" column="49" lean-forward="true" selection-start-line="148" selection-start-column="49" selection-end-line="148" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/StudentData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="152" column="70" selection-start-line="152" selection-start-column="70" selection-end-line="152" selection-end-column="70" />
+        <state relative-caret-position="323">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/ActionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureFundData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetTakenLiteratureCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/command/EmptyCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1131,24 +1137,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/text.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/GetDebtorsStudentsCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="106" column="161" selection-start-line="106" selection-start-column="161" selection-end-line="106" selection-end-column="161" />
+        <state relative-caret-position="238">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureStatus.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetBookInfoCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///148fde63/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/routine/CHANGE_LIBRARY_FUND.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///148fde63/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/schema/LIBRARY_DATABASE/routine/ADD_RESERVE.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleUserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="658" column="23" selection-start-line="658" selection-start-column="23" selection-end-line="658" selection-end-column="23" />
+        <state relative-caret-position="204">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getUsers#0;class#OracleUserDAO#0" />
@@ -1160,24 +1197,214 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLiteratureCollectionCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+        <state relative-caret-position="368">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/GetTeacherDisciplinesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/GroupDiscipline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="193" column="21" selection-start-line="193" selection-start-column="21" selection-end-line="193" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/GetTeacherGroupsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLibraryFundDataCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetBooksDatesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/ReturnLiteratureCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/userscommand/AddUserCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="81" selection-start-line="78" selection-start-column="7" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/DeleteReserveRequestCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="139" column="45" selection-start-line="139" selection-start-column="45" selection-end-line="139" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetUserBooksCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/ReserveRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/Literature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/FrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/CommandEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="215" column="42" lean-forward="true" selection-start-line="215" selection-start-column="42" selection-end-line="215" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetReserveRequestsListCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/CreateReserveRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/text.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="173" column="56" selection-start-line="173" selection-start-column="56" selection-end-line="173" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2682">
-          <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+        <state relative-caret-position="384">
+          <caret line="483" column="83" lean-forward="true" selection-start-line="483" selection-start-column="83" selection-end-line="483" selection-end-column="104" />
         </state>
       </provider>
     </entry>

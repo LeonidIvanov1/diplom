@@ -23,7 +23,7 @@ class LibrarianMenu extends Component {
                             Читатели
                         </ListGroup.Item>
                     </LinkContainer>
-                    <LinkContainer to="/repots">
+                    <LinkContainer to="/reports">
                         <ListGroup.Item action>
                             Отчеты
                         </ListGroup.Item>

@@ -2,9 +2,11 @@ package datalayer;
 
 
 
+import datalayer.data.Discipline;
 import datalayer.data.Specialty;
 
 import java.util.List;
+import java.util.Set;
 
 public interface SpecialtyDAO {
 
@@ -51,4 +53,6 @@ public interface SpecialtyDAO {
     Specialty getSpecialty(int specialtyID);
 
 	void changeSpecialty(String name, String code, float parameter, String description, int id);
+
+    Set<Discipline> getSpecialtyDisciplines(int specialtyID);
 }

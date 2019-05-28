@@ -220,13 +220,13 @@ class book_collection extends Component {
     onTableClick = (e) => {
         let id = e.target.parentElement.getAttribute('id');
         console.log(id);
-        this.props.history.push("/group_info/" + id);
+        this.props.history.push("/book_info/" + id);
     };
 
 
     showTable = () => {
         if (this.state.show === 'collection') {
-            return <Table striped bordered hover className="data-table" onClick={this.onTableClick}>
+            return <Table striped bordered hover className="data-table" >
                 <thead>
                 <tr>
                     <th>#</th>

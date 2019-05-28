@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import datalayer.data.Discipline;
-import oracle.jdbc.proxy.annotation.Pre;
+
 import resourcebundledemo.Resourcer;
 
 import datalayer.DisciplineDAO;
@@ -154,7 +154,7 @@ public class OracleDisciplineDAO implements DisciplineDAO {
             ps.setInt(1, specialtyID);
             rs = ps.executeQuery();
             while (rs.next()) {
-                disciplines.add(rs.getString(1));
+                disciplines.add(rs.getString(2));
             }
             ps.close();
         } catch (SQLException e) {

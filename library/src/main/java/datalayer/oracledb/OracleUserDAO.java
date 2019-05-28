@@ -442,7 +442,6 @@ public class OracleUserDAO implements UserDAO {
     /**
      * Delete user
      *
-     * @param login
      */
     public void deleteUser(int id) {
         CallableStatement cs;

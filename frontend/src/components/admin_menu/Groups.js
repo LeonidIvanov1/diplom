@@ -14,7 +14,7 @@ class Groups extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            groups: null,
+            specialties: null,
             searchValue: "",
             pageCount: 0
         }
@@ -76,17 +76,17 @@ class Groups extends Component {
             .then(response => {
                 return JSON.parse(response);
             }).then(data => {
-            this.setState({groups: data.value})
+            this.setState({specialties: data.value})
         }).catch(function (error) {
             console.log('There has been a problem with your fetch operation' + error.message);
         });
     };
 
     createGroupsRows = () => {
-        let groups = this.state.groups;
+        let groups = this.state.specialties;
         let rows = [];
         if (groups != null) {
-            for (let i = 0; i < this.state.groups.length; i++) {
+            for (let i = 0; i < this.state.specialties.length; i++) {
                 let row = <tr key={i + groups[i].id} id={groups[i].groupID}>
                     <td>{this.curPage * this.perPage + i + 1}</td>
                     <td>{groups[i].name}</td>
@@ -121,7 +121,7 @@ class Groups extends Component {
             .then(response => {
                 return JSON.parse(response);
             }).then(data => {
-            this.setState({groups: data.value})
+            this.setState({specialties: data.value})
         }).catch(function (error) {
             console.log('There has been a problem with your fetch operation' + error.message);
         });

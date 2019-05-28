@@ -98,7 +98,7 @@ class Discipline extends Component {
             .then(response => {
                 return JSON.parse(response);
             }).then(data => {
-            this.setState({groups: data.value})
+            this.setState({specialties: data.value})
         }).catch(function (error) {
             console.log('There has been a problem with your fetch operation' + error.message);
         });

@@ -75,5 +75,12 @@
         <Column name="DISCIPLINE" type="NUMBER(10)"></Column>
     </Table>
 
+    <Table table-name="RESERVE">
+        <Column name="RESID" type="NUMBER(10)"></Column>
+        <Column name="TEACHER" type="NUMBER(10)"></Column>
+        <Column name="ST_GROUP" type="NUMBER(10)"></Column>
+        <Column name="DISCIPLINE" type="NUMBER(10)"></Column>
+        <Column name="BOOK" type="NUMBER(10)"></Column>
+    </Table>
 
 </Tables>

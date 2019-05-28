@@ -2,8 +2,8 @@ package datalayer;
 
 import java.util.List;
 
-import datalayer.data.literature.Literature;
-import datalayer.data.literature.LiteratureCollection;
+import datalayer.data.User;
+import datalayer.data.literature.*;
 
 public interface LiteratureDAO {
 	/**
@@ -63,42 +63,49 @@ public interface LiteratureDAO {
 
 	/**
 	 * Add new literature
-	 * 
-	 * @param name        -- book name
-	 * @param author      -- book author
-	 * @param year        -- book year
-	 * @param isbn        -- book ISBN
-	 * @param description -- book description
-	 */
+	 *
+     * @param s
+     * @param name        -- book name
+     * @param author      -- book author
+     * @param year        -- book year
+     * @param isbn        -- book ISBN
+     * @param description -- book description
+     * @param status
+     * @param type
+     */
 	void addLiterature(String name, String author, String year, String isbn,
-                       String description);
+                       String description,String rental, int status, int type);
 
 	/**
 	 * Returns literature info
 	 * 
-	 * @param literatureIsbn -- book ISBN
+	 * @param bookID -- book ISBN
 	 * @return
 	 */
-	Literature getLiteratureInfo(String literatureIsbn);
+	Literature getLiteratureInfo(int bookID);
 
 	/**
 	 * Removes literature
-	 * 
+	 *
 	 * @param literatureIsbn -- book ISBN
 	 */
-	void deleteLiterature(String literatureIsbn);
+	void deleteLiterature(int literatureIsbn);
 
 	/**
 	 * Change literature
-	 * 
+	 *  @param s
 	 * @param name        -- book name
 	 * @param author      -- book author
 	 * @param year        -- book year
 	 * @param isbn        -- book ISBN
 	 * @param description -- book description
+	 * @param status
+	 * @param type
+	 * @param holder
+	 * @param bookID
 	 */
-	void changeLiteratureDAO(String name, String author, String year,
-                             String isbn, String description);
+	void changeLiteratureDAO( String name, String author, String year,
+							 String isbn, String description,String rental, int status, int type, int holder, int bookID);
 
 	/**
 	 * Checks literature collection by FGOS
@@ -113,4 +120,22 @@ public interface LiteratureDAO {
     int getLiteratureCollectionCount(String search);
 
 	int getLiteratureCount(String search);
+
+    List<Literature> getUserLiterature(int id);
+
+    List<LiteratureDate> getLiteratureDates(int id);
+
+	void returnLiterature(int bookId);
+
+	void extendLiterature(int bookId);
+
+    LiteratureFundData getLibraryFundData();
+
+    List<User> getHolders();
+
+	void createReserveRequest(int groupID, int teacher, int discipline, List<LiteratureCollection> literatureCollectionList);
+
+	List<ReserveRequest> getReserveRequestList(int userID);
+
+	void deleteReserveRequest(int reserveID);
 }

@@ -45,6 +45,7 @@ public class FrontController extends HttpServlet {
 
         ActionFactory client = new ActionFactory();
         ActionCommand command = client.defineCommand(request);
+        //System.out.println(request.getSession());
         ValueObject valueObject = command.execute(request);
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
