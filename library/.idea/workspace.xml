@@ -6,162 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="907d8318-86f8-47be-ba80-9ac6f3445359" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Debtors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/FGOSCheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Fgos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Fund.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Reader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Readers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/student_menu/TakenLiterature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/student_menu/UserLibrary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/teacher_menu/ReserveRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/teacher_menu/ReserveRequestList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/groupscommnad/GetDisciplineGroupsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/AddBookCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/ChangeBookCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/CheckLiterature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/CreateReserveRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/DeleteBookCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/DeleteReserveRequestCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/ExtendLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetBookInfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetBooksDatesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetLibraryFundDataCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetReserveRequestsListCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/GetUserBooksCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/literaturecommand/ReturnLiteratureCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/specialtiescommand/GetSpecialtyDisciplinesCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetDebtorsStudentsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/userscommand/GetTeacherGroupsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/LiteratureFundData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/literature/ReserveRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Disciplines.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Disciplines.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/Groups.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/admin_menu/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/admin_menu/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/librarian_menu/Library.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/user_menu/LibrarianMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/LibrarianMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/user_menu/StudentMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/StudentMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/user_menu/TeacherMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/user_menu/TeacherMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/storage_v2/_src_/schema/LIBRARY_DATABASE.nwCeaQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/storage_v2/_src_/schema/LIBRARY_DATABASE.nwCeaQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/storage_v2/_src_/schema/LIBRARY_DATABASE.nwCeaQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/storage_v2/_src_/schema/LIBRARY_DATABASE.nwCeaQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/CommandEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/CommandEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/GroupDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/LiteratureDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/SpecialtyDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/data/Discipline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/Discipline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleGroupDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleSpecialtyDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/filter/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filter/AuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/FrontController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/TEST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/CommandEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/CommandEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/GroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/GroupDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/LiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/LiteratureDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/SpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/SpecialtyDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/Discipline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/Discipline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleDisciplineDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleDisciplineDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleGroupDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleLiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleLiteratureDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleSpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleSpecialtyDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/oracledb/OracleUserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/filter/AuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/filter/AuthorizationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/FrontController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/FrontController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/TEST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/text.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/library.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/command/CommandEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/GroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/GroupDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/LiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/LiteratureDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/SpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/SpecialtyDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/data/Discipline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/data/Discipline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleDisciplineDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleDisciplineDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleGroupDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleLiteratureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleLiteratureDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleSpecialtyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleSpecialtyDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/datalayer/oracledb/OracleUserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/filter/AuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/filter/AuthorizationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/servlet/FrontController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/servlet/FrontController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/servlet/TEST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library/WEB-INF/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/text.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/sql/create-tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/sql/create-tables.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library_system/tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library_system/tables.xml" afterDir="false" />
-    </list>
+    <list default="true" id="907d8318-86f8-47be-ba80-9ac6f3445359" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -203,41 +48,13 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4aa7b9c-7725-444c-999d-3bda8b12a7d0/console.sql">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state>
-                    <caret selection-end-column="32" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/resources/text.properties">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="278">
-                    <caret line="173" column="56" selection-start-line="173" selection-start-column="56" selection-end-line="173" selection-end-column="56" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="483" column="83" lean-forward="true" selection-start-line="483" selection-start-column="83" selection-end-line="483" selection-end-column="104" />
+              <caret line="483" column="83" selection-start-line="483" selection-start-column="83" selection-end-line="483" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -245,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/command/CommandEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="215" column="42" lean-forward="true" selection-start-line="215" selection-start-column="42" selection-end-line="215" selection-end-column="42" />
+            <state relative-caret-position="3587">
+              <caret line="215" column="42" selection-start-line="215" selection-start-column="42" selection-end-line="215" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -278,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/CreateReserveRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
+            <state relative-caret-position="374">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -290,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetReserveRequestsListCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="238">
               <caret line="19" column="63" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -302,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
+            <state relative-caret-position="1054">
               <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
             </state>
           </provider>
@@ -311,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="2669">
               <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -323,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/FrontController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
+            <state relative-caret-position="731">
               <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
@@ -824,11 +641,12 @@
       <workItem from="1558558116860" duration="11418000" />
       <workItem from="1558614377510" duration="27357000" />
       <workItem from="1558796424331" duration="17624000" />
+      <workItem from="1559076570981" duration="639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180199000" />
+    <option name="totallyTimeSpent" value="180838000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -843,8 +661,8 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837488" visible="true" weight="0.19349681" />
-      <window_info id="Structure" order="1" sideWeight="0.5016251" side_tool="true" visible="true" weight="0.19349681" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.195629" />
+      <window_info id="Structure" order="1" sideWeight="0.50270855" side_tool="true" visible="true" weight="0.195629" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -1316,6 +1134,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/CommandEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3587">
+          <caret line="215" column="42" selection-start-line="215" selection-start-column="42" selection-end-line="215" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/literature/ReserveRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1333,34 +1161,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/FrontController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/CreateReserveRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/CommandEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="215" column="42" lean-forward="true" selection-start-line="215" selection-start-column="42" selection-end-line="215" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
+        <state relative-caret-position="374">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1369,7 +1173,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/GetReserveRequestsListCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="238">
           <caret line="19" column="63" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1377,13 +1181,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/literaturecommand/CreateReserveRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DisciplineDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="1054">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleDisciplineDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/FrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
@@ -1404,7 +1222,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/oracledb/OracleLiteratureDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="483" column="83" lean-forward="true" selection-start-line="483" selection-start-column="83" selection-end-line="483" selection-end-column="104" />
+          <caret line="483" column="83" selection-start-line="483" selection-start-column="83" selection-end-line="483" selection-end-column="104" />
         </state>
       </provider>
     </entry>
